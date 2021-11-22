@@ -14,3 +14,5 @@ Next I made a copy without colours and added the structural elements required an
 I decided to use Tailwind, which we had used the previous week on the course, as I found it make the process of building my website faster.
 
 I started by building the structure of the HTML - general layout, etc - for desktop.
+
+When I got to building the projects I decided the layout I had come up with didn't make sense, on desktop at least, to show screenshots and icons, due to the size constraints in that layout.
