@@ -7,44 +7,46 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-<section>
-    <!--    about me section -->
-    <img src="assets/lucia-profile-picture.png" alt="Lucia Velasco">
-    <!-- Semantic h tags -->
-    <div>
-        <h1>Lucia Velasco</h1>
-        <h2>Frontend Developer</h2>
-        <p>All my hobbies, hopes and dreams go here</p>
-        <div>
-            <i>LinkedIn</i>
-            <i>Github</i>
-            <i>Email</i>
-        </div>
-    </div>
-    <p>this site was written in Tailwind, HTML5, and CSS3</p>
-</section>
-<section>
-    <!--    project one: left -->
-    <div>
-        <h3>Title</h3>
-        <p>Description</p>
-        <div>
-            <img src="assets/time-tracking-app.png" alt="dashboard for a time tracking website">
+<main class="flex flex-col text-yellow-300 bg-yellow-300 min-h-screen py-20">
+    <section class="w-2/3 h-96 relative justify-between flex flex-col self-end bg-gray-500 p-10">
+        <!--    about me section -->
+        <img class="w-60 absolute top-10 -left-32" src="assets/lucia-profile-picture.png" alt="Lucia Velasco">
+        <!-- Semantic h tags -->
+        <div class="w-4/5 self-end mt-10">
+            <h1>Lucia Velasco</h1>
+            <h2>Frontend Developer</h2>
+            <p>All my hobbies, hopes and dreams go here</p>
             <div>
-                <!-- icons -->
-                <div>
-                    <i>Github</i>
-                    <i>Codepen</i>
-                </div>
-                <div>
-                    <!-- todo: hide on mobile -->
-                    <i>Tailwind</i>
-                    <i>HTML</i>
-                </div>
+                <i>LinkedIn</i>
+                <i>Github</i>
+                <i>Email</i>
             </div>
         </div>
-    </div>
-    <div>01</div>
-</section>
+        <p>this site was written in Tailwind, HTML5, and CSS3</p>
+    </section>
+    <!--<section>-->
+    <!--    &lt;!&ndash;    project one: left &ndash;&gt;-->
+    <!--    <div>-->
+    <!--        <h3>Title</h3>-->
+    <!--        <p>Description</p>-->
+    <!--        <div>-->
+    <!--            <img src="assets/time-tracking-app.png" alt="dashboard for a time tracking website">-->
+    <!--            <div>-->
+    <!--                &lt;!&ndash; icons &ndash;&gt;-->
+    <!--                <div>-->
+    <!--                    <i>Github</i>-->
+    <!--                    <i>Codepen</i>-->
+    <!--                </div>-->
+    <!--                <div>-->
+    <!--                    &lt;!&ndash; todo: hide on mobile &ndash;&gt;-->
+    <!--                    <i>Tailwind</i>-->
+    <!--                    <i>HTML</i>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <!--    <div>01</div>-->
+    <!--</section>-->
+</main>
 </body>
 </html>
